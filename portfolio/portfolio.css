@@ -68,4 +68,9 @@ body {
 
 main {
   display: block;
+}
+
+body {
+  display: inline;
+  background-color: #212121;
 }/*# sourceMappingURL=portfolio.css.map */
