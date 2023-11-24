@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+// .header-container > div:nth-of-type(1),
+// .header-container,
+// .header-right-part,
+.justify-content-centre,
+.flex,
+// .contacts-wrapper
+// .contacts-container,
+.main-text-pictures {
+    display: flex;
+}
+// .header_container {
+//     height: 80px;
+//     background-color: #fff;
+//     border-bottom: 1px solid #ECECEC;
+//     justify-content: space-evenly;
+//     align-items: center;
+// }
+// .header_container_web,
+// .header_container_studio {
+//     color: #2196F3;
+//     font-family: 'Raleway', sans-serif;
+//     font-size: 26px;
+//     font-weight: 700;
+//     letter-spacing: 0.78px;
+// }
+// .contacts-wrapper {
+//     padding-right: 344px;
+//     cursor: pointer;
+// }
+// .contacts-wrapper_contacts-container {
+//     position: relative;
+// }
+// .padding-right50  {
+//     padding-right: 50px;
+// }
+// .contacts-wrapper_contacts-container > a,
+// .header-right-part_email-container_email {
+//     color: #2196F3;
+//     font-size: 14px;
+//     font-weight: 500;
+//     letter-spacing: 0.28px;  
+//     text-decoration: none;
+// }
+// .contacts-wrapper_contacts-container > div {
+//     position: absolute;
+//     top: 45px;
+//     width: 72px;
+//     height: 4px;
+//     border-radius: 2px;
+//     background: #2196F3;
+// }
+// .black {
+//     color: #212121 !important;
+// }
+// .telephonenumber {
+//     color: #757575;
+//     text-decoration: none;
+// }
+// .buttons-container {
+//     display: flex;
+//     justify-content: center;
+//     padding-top: 94px;
+//     cursor: pointer;
+// }
+// .buttons-container_button-all {
+//     position: relative;
+//     width: 73px;
+//     height: 38px;
+//     border-radius: 4px;
+//     background-color: #2196F3;
+//     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+//     margin-right: 8px;
+// }
+// .buttons-container_button-all > p {
+//     color: #FFF;
+//     text-align: center;
+//     padding: 6px 25px;
+//     font-size: 16px;
+//     font-weight: 500;
+//     line-height: 26px;
+//     letter-spacing: 0.48px;
+// }
+// .buttons-container_button-all > div {
+//     position: absolute;
+//     left: 55px;
+//     background-image: url(./img/cursor-pointer.png);
+//     background-repeat: no-repeat;
+//     width: 16px;
+//     height: 16px;
+// }
+// .buttons-container_buttons {
+//     width: 125px;
+//     height: 38px;
+//     border-radius: 4px;
+//     background-color: #F5F4FA;
+//     margin-right: 8px;
+// }
+// .buttons-container_buttons > p {
+//     color: #212121;
+//     padding: 6px 22px;
+//     text-align: center;
+//     font-size: 16px;
+//     font-weight: 500;
+//     line-height: 26px;
+//     letter-spacing: 0.48px;
+// }
+// .buttons-container_buttons_web-sites {
+//     width: 125px;
+// }
+.card {
+    position: relative;
+}
+.hover-block:hover::after {
+    content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
+    position: absolute;
+    right: 0;
+    width: 322px;
+    height: 168px;
+    background: rgba(33, 150, 243, 0.90);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.54px;
+    padding: 63px 24px;
+    opacity: 1;
+}
+.text-container {
+    border: 1px solid #EEE;
+}
+.text-container > p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+    padding: 0 24px 54px;
+}
+.text-container > h3 {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+    padding: 20px 24px 0;
+}
+.photo-cards > div {
+    justify-content: space-evenly;
+    padding: 0 0 30px;
+}
+.photo-cards > div:nth-of-type(1) {
+    padding-top: 56px;
+}
+main {
+    display: block;
+}
+body {
+    display: inline;
+    background-color: #212121;
+}
