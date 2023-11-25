@@ -82,7 +82,7 @@ body {
 }
 
 .main {
-  background-image: url(/img/main-bg.jpg);
+  background-image: url(./img/main-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -229,16 +229,16 @@ textarea::placeholder {
 }
 
 .black-man {
-  background-image: url(/img/person-blue.png);
+  background-image: url(./img/person-blue.png);
   border: 1px solid #2196F3 !important;
 }
 
 .black-phone {
-  background-image: url(/img/phone-black.png);
+  background-image: url(./img/phone-black.png);
 }
 
 .black-email {
-  background-image: url(/img/email-black.png);
+  background-image: url(./img/email-black.png);
 }
 
 .black-man,
