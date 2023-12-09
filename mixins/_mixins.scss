@@ -1,3 +1,12 @@
 @mixin flex($flex) {
     display: $flex;
 }
+@mixin cursor($pointer) {
+    display: $pointer;
+}
+@mixin color($color) {
+    color: $color;
+}
+@mixin textAlign($center) {
+    text-align: $center;
+}

@@ -1,1 +1,250 @@
-/*# sourceMappingURL=studio.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header > div:nth-of-type(1),
+.header,
+.header-right-part,
+.justify-content-centre,
+.flex,
+.contacts,
+.main-text-pictures {
+  display: flex;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+body .header {
+  height: 80px;
+  background-color: #fff;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .header .web {
+  color: #2196F3;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+body .header .studio {
+  color: #2196F3;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  color: #000;
+}
+body .header .contacts {
+  padding-right: 344px;
+  cursor: pointer;
+}
+body .header .contacts .contacts-container {
+  position: relative;
+}
+body .header .contacts .contacts-container .contacts-container a {
+  color: #2196F3;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+body .header .contacts .contacts-container .contacts-container > div {
+  position: absolute;
+  top: 45px;
+  width: 47px;
+  height: 4px;
+  border-radius: 2px;
+  background: #2196F3;
+}
+body .header .header-right-part .email1 {
+  color: #2196F3;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+body .header .header-right-part .telephonenumber {
+  color: #757575;
+  text-decoration: none;
+}
+body .main {
+  background-image: url(./img/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .main .main-title .main-title > h2 {
+  color: #FFF;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  padding: 200px 452px 80px;
+}
+body .main .justify-content-centre {
+  justify-content: center;
+  padding-bottom: 200px;
+}
+body .main .justify-content-centre .order-service,
+body .main .justify-content-centre .send {
+  width: 216px;
+  height: 50px;
+  border-radius: 4px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+}
+body .main .modal-register {
+  position: absolute;
+  width: 528px;
+  height: 581px;
+  background-color: #fff;
+  right: 144px;
+  bottom: 1px;
+  display: none;
+}
+body .main .modal-register .cross::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 18px;
+  background-color: #2196F3;
+  transform: translate(515px, 5px) rotate(45deg);
+  cursor: pointer;
+}
+body .main .modal-register .cross::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 18px;
+  background-color: #2196F3;
+  transform: translate(515px, 5px) rotate(315deg);
+  cursor: pointer;
+}
+body .main .modal-register .modal-register > h3 {
+  color: #212121;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  padding: 40px 0 12px;
+}
+body .main .modal-register .flex {
+  flex-direction: column;
+  padding-left: 41px;
+}
+body .main .modal-register .flex .grid {
+  display: grid;
+  position: relative;
+  color: #757575;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+body .main .modal-register .flex .grid .grid > input {
+  width: 448px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  margin-bottom: 10px;
+}
+body .main .modal-register .flex .grid textarea {
+  width: 448px;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+body .main .modal-register .flex .grid textarea::-moz-placeholder {
+  width: 416px;
+  height: 96px;
+  padding-top: 12px;
+}
+body .main .modal-register .flex .grid textarea::placeholder {
+  width: 416px;
+  height: 96px;
+  padding-top: 12px;
+}
+body .main .modal-register .flex .grid .black-man {
+  background-image: url(./img/person-blue.png);
+  border: 1px solid #2196F3 !important;
+  background-repeat: no-repeat;
+}
+body .main .modal-register .flex .grid .black-phone {
+  background-image: url(./img/phone-black.png);
+  background-repeat: no-repeat;
+}
+body .main .modal-register .flex .grid .black-email {
+  background-image: url(./img/email-black.png);
+  background-repeat: no-repeat;
+}
+body .main .modal-register .flex .grid input[onclick=""]:focus {
+  background-image: none;
+}
+body .main .modal-register .flex .padding-20-0-30 {
+  padding: 20px 0 30px;
+  text-align: center;
+}
+body .main .modal-register .flex .padding-20-0-30 .checkbox-text {
+  width: 270px;
+  height: 72px;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+body .main .modal-register .flex .padding-20-0-30 .checkbox-text .checkbox-text > a {
+  color: #2196F3;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  text-decoration-line: underline;
+}
+body .main .modal-register .flex .justify-content-centre .send {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background: #188CE8;
+}
+body .main-text-pictures {
+  justify-content: space-evenly;
+  padding-top: 94px;
+}
+body .main-text-pictures .card-text .card-text > h3 {
+  width: 270px;
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+}
+body .main-text-pictures .card-text .card-text > p {
+  width: 270px;
+  height: 72px;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+body .padding-right50 {
+  padding-right: 50px;
+}
+body .black {
+  color: #212121 !important;
+}
+body .active {
+  display: block;
+}/*# sourceMappingURL=studio.css.map */
