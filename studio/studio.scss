@@ -79,10 +79,10 @@ body {
   }
   .main {
     background-image: url(./img/main-bg.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    .main-title {
-      .main-title > h2 {
+    background-repeat: no-repeat;
+    .main_title {
+      .main_title__h2 {
         color: #FFF;
         text-align: center;
         font-size: 44px;
@@ -262,15 +262,3 @@ body {
     display: block;
   }
 }
-  
-
-
-
-
-
-  
-
-  
-
-
-

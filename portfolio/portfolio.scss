@@ -1,16 +1,16 @@
-@import url('../mixins/_mixins.scss');
+// @import url('../mixins/_mixins.scss');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .header_container > div:nth-of-type(1),
-.header_container,
-.header_container__right_part,
-.main_container__photo_cards__first_cards_line,
-.main_container__photo_cards__second_cards_line,
-.main_container__photo_cards__third_cards_line,
-.header_container__nav,
+// .header_container,
+// .header_container__right_part,
+// .main_container__photo_cards__first_cards_line,
+// .main_container__photo_cards__second_cards_line,
+// .main_container__photo_cards__third_cards_line,
+// .header_container__nav,
 .header_container__nav__contacts_wrapper {
     @include flex(flex);
 }
