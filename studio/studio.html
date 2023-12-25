@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../main.css">
     <title>Document</title>
 </head>
 <body>
@@ -22,28 +22,28 @@
  
             <nav class="contacts cursor-pointer">
                 <div class="contacts-container">
-                    <a class="padding-right50 color-aqua" href="#">Студія</a>
-                    <div></div>                    
+                    <a class="padding-right50 color-aqua contacts-link text-decoration-none" href="#">Студія</a>
+                    <div class="contacts-container__line position-absolute"></div>                    
                 </div>
 
                 <div class="contacts-container">
-                    <a class="black padding-right50" href="../portfolio/portfolio.html">Портфоліо</a>
+                    <a class="black padding-right50 contacts-link text-decoration-none" href="../portfolio/portfolio.html">Портфоліо</a>
                 </div>
 
                 <div class="contacts-container">
-                    <a class="black contacts-a" href="#">Контакти</a>
+                    <a class="black contacts-a contacts-link text-decoration-none" href="#">Контакти</a>
                 </div>
             </nav>
 
             <div class="header-right-part">
                 <div class="padding-right50">
                     <img src="./img/email-blue.png" alt="email-blue">
-                    <a class="email1 color-aqua" href="#">info@devstudio.com</a>
+                    <a class="email1 color-aqua text-decoration-none" href="#">info@devstudio.com</a>
                 </div>
     
                 <div>
                     <img src="./img/smartphone-grey.png" alt="smartphone-grey">
-                    <a class="telephonenumber"  href="#">+38 096 111 11 11</a>
+                    <a class="telephone-number text-decoration-none" href="#">+38 096 111 11 11</a>
                 </div>
             </div>
         </section>
@@ -60,26 +60,26 @@
             </div>
 
             
-            <div class="modal-register">
+            <div class="modal-register position-absolute">
 
                 <div class="cross cursor-pointer"></div>
 
-                <h3 class="text-align-center">Залиште свої дані, ми вам передзвонимо</h3>
+                <h3 class="modal-register__title_text text-align-center">Залиште свої дані, ми вам передзвонимо</h3>
 
-                <form class="flex">
+                <form class="flex modal-register__form">
                     <label class="grid">
                         Ім'я
-                        <input class="black-man" type="text" onclick="">
+                        <input class="grid_input black-man" type="text" onclick="">
                     </label>
 
                     <label class="grid">
                         Телефон
-                        <input class="black-phone" type="number" onclick="">
+                        <input class="grid_input black-phone" type="number" onclick="">
                     </label>
 
                     <label class="grid">
                         Пошта
-                        <input class="black-email" type="email" onclick="">
+                        <input class="grid_input black-email" type="email" onclick="">
                     </label>
 
                     <label class="grid">
@@ -90,7 +90,7 @@
                     <label class="padding-20-0-30 text-align-center">
                         <input type="checkbox">
                         <label class="checkbox-text">Погоджуюся з розсилкою та приймаю <a class="color-aqua" href="#"> Умови договору</a></label>
-                    </label>
+                    </label> 
 
                     <div class="justify-content-centre">
                         <button class="send text-align-center">Відправити</button>
@@ -100,29 +100,29 @@
         </section>
 
 
-        <div class="main-text-pictures">
+        <div class="main-text-pictures flex">
             <div class="card-text">
                 <img src="./img/antenna.png" alt="antenna">
-                <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-                <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                <h3 class="card-text__title_text">УВАГА ДО ДЕТАЛЕЙ</h3>
+                <p class="card-text__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </div>
                 
             <div class="card-text">
                 <img src="./img/clock.png" alt="clock">
-                <h3>ПУНКТУАЛЬНІСТЬ</h3>
-                <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                <h3 class="card-text__title_text">ПУНКТУАЛЬНІСТЬ</h3>
+                <p class="card-text__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </div>
 
             <div class="card-text">
                 <img src="./img/diagram.png" alt="diagram">
-                <h3>ПЛАНУВАННЯ</h3>
-                <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                <h3 class="card-text__title_text">ПЛАНУВАННЯ</h3>
+                <p class="card-text__text">Так само консультація з широким активом значною мірою зумовлює.</p>
             </div>
 
             <div class="card-text">
                 <img src="./img/asronaut.png" alt="astronaut">
-                <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                <h3 class="card-text__title_text">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                <p class="card-text__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </div>
         </div>
 

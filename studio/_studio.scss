@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
   }
+.padding-right50 {
+  padding-right: 50px;
+}
+.black {
+  color: #212121 !important;
+}
 .header > div:nth-of-type(1),
 .header,
 .header-right-part,
@@ -11,23 +17,27 @@
 .flex,
 .contacts,
 .main-text-pictures {
-  display: flex;
+  @include flex(flex);
 }
 .cursor-pointer {
   @include cursor(pointer);
 }
-
 .color-aqua {
-  @include color(#2196F3);
+  @include colorAqua(#2196F3);
 }
 .text-align-center {
   @include textAlign(center);
 }
+.text-decoration-none {
+  @include textDecoration(none);
+}
+.position-absolute {
+  @include positionAbsolute(absolute);
+}
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif; }
   .header {
     height: 80px;
-    background-color: #fff;
     justify-content: space-evenly;
     align-items: center;
     .web {
@@ -45,17 +55,14 @@ body {
     }
     .contacts {
       padding-right: 344px;
-      cursor: pointer;
       .contacts-container {
         position: relative;
-        .contacts-container > a {
+        .contacts-link {
           font-size: 14px;
           font-weight: 500;
           letter-spacing: 0.28px;
-          text-decoration: none; 
         }
-        .contacts-container > div {
-          position: absolute;
+        .contacts-container__line {
           top: 45px;
           width: 47px;
           height: 4px;
@@ -71,14 +78,14 @@ body {
         letter-spacing: 0.28px;
         text-decoration: none;
       }
-      .telephonenumber {
+      .telephone-number {
         color: #757575;
         text-decoration: none;
       }
     }
   }
   .main {
-    background-image: url(./img/main-bg.jpg);
+    background-image: url("../studio/img/main-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     .main_title {
@@ -111,7 +118,6 @@ body {
       }
     }
     .modal-register {
-      position: absolute;
       width: 528px;
       height: 581px;
       background-color: #fff;
@@ -136,7 +142,7 @@ body {
         transform: translate(515px, 5px) rotate(315deg);
         cursor: pointer;
       }
-      .modal-register > h3 {
+      .modal-register__title_text {
         color: #212121;
         text-align: center;
         font-size: 20px;
@@ -144,20 +150,17 @@ body {
         letter-spacing: 0.6px;
         padding: 40px 0 12px;
       }
-      .flex {
+      .modal-register__form {
         flex-direction: column;
         padding-left: 41px;
         .grid {
           display: grid;
           position: relative;
           color: #757575;
-          font-family: Roboto;
           font-size: 12px;
-          font-style: normal;
           font-weight: 400;
-          line-height: normal;
           letter-spacing: 0.12px;
-          .grid > input {
+          .grid_input {
             width: 448px;
             height: 40px;
             border-radius: 4px;
@@ -201,7 +204,6 @@ body {
         }
         .padding-20-0-30 {
           padding: 20px 0 30px;
-          text-align: center;
           .checkbox-text {
             width: 270px;
             height: 72px;
@@ -229,19 +231,22 @@ body {
         }
       }
     }
+    .active {
+      display: block;
+    }
   }
   .main-text-pictures {
     justify-content: space-evenly;
     padding-top: 94px;
     .card-text {
-      .card-text > h3 {
+      .card-text__title_text {
         width: 270px;
         color: #212121;
         font-size: 14px;
         font-weight: 700;
         letter-spacing: 0.42px;
       }
-      .card-text > p {
+      .card-text__text {
         width: 270px;
         height: 72px;
         color: #757575;
@@ -252,13 +257,3 @@ body {
       }
     }
   }
-  .padding-right50 {
-    padding-right: 50px;
-  }
-  .black {
-    color: #212121 !important;
-  }
-  .active {
-    display: block;
-  }
-}

@@ -4,9 +4,18 @@
 @mixin cursor($pointer) {
     display: $pointer;
 }
-@mixin color($color) {
-    color: $color;
+@mixin colorAqua($colorAqua) {
+    color: $colorAqua;
 }
 @mixin textAlign($center) {
     text-align: $center;
+}
+@mixin textDecoration($none) {
+    text-decoration: none;
+}
+@mixin positionAbsolute($absolute) {
+    position: absolute;
+}
+@mixin positionRelative($relative) {
+    position: relative;
 }
