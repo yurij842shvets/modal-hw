@@ -83,6 +83,26 @@ body {
   border-radius: 2px;
   background: #2196F3;
 }
+.header .burger-menu {
+  position: relative;
+  right: 300px;
+}
+.header .burger-menu .burger-menu__span,
+.header .burger-menu .burger-menu__span::after,
+.header .burger-menu .burger-menu__span::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background-color: #000;
+}
+.header .burger-menu .burger-menu__span::after {
+  top: 8px;
+}
+.header .burger-menu .burger-menu__span::before {
+  top: -8px;
+}
 .header .header-right-part .email1 {
   font-size: 14px;
   font-weight: 500;
@@ -261,6 +281,11 @@ body {
   letter-spacing: 0.42px;
 }
 
+@media screen and (max-width: 1110px) {
+  .modal_burger {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;

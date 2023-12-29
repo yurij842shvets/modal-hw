@@ -71,6 +71,26 @@ body {
         }
       }
     }
+    .burger-menu {
+      position: relative;
+      right: 300px;
+      .burger-menu__span,
+      .burger-menu__span::after,
+      .burger-menu__span::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background-color: #000;
+      }
+      .burger-menu__span::after {
+        top: 8px;
+      }
+      .burger-menu__span::before {
+        top: -8px;
+      }
+    }
     .header-right-part {
       .email1 {
         font-size: 14px;
@@ -256,4 +276,10 @@ body {
         letter-spacing: 0.42px;
       }
     }
+  }
+  @media screen and (max-width: 1110px) {
+      .modal_burger {
+        display: none;
+      }
+      
   }
