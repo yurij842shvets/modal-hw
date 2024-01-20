@@ -2,7 +2,7 @@
     display: $flex;
 }
 @mixin cursor($pointer) {
-    display: $pointer;
+    cursor: $pointer;
 }
 @mixin colorAqua($colorAqua) {
     color: $colorAqua;
