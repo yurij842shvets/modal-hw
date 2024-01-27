@@ -9,9 +9,11 @@ console.log(crossWindow);
 
 burgerMenuButton.addEventListener('click', function() {
     contactsWindow.classList.add('active');
+    burgerMenuButton.style.display = 'none';
 })
 crossWindow.addEventListener('click', function() {
     contactsWindow.classList.remove('active');
+    burgerMenuButton.style.display = 'block';
 })
 burgerMenuButton.addEventListener('click', function() {
     burgerMenuButton.classList.add('not-active');
