@@ -1,4 +1,4 @@
-const burgerMenuButton = document.querySelector('.burger-menu');
+const burgerMenuButton = document.querySelector('.burger-menu__span');
 console.log(burgerMenuButton);
 
 const contactsWindow = document.querySelector('.contacts_window');
@@ -13,6 +13,6 @@ burgerMenuButton.addEventListener('click', function() {
 crossWindow.addEventListener('click', function() {
     contactsWindow.classList.remove('active');
 })
-// burgerMenuButton.addEventListener('click', function() {
-//     burgerMenuButton.classList.add('not-active')
-// })
+burgerMenuButton.addEventListener('click', function() {
+    burgerMenuButton.classList.add('not-active');
+})

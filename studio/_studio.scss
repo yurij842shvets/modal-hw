@@ -94,9 +94,9 @@ body {
         top: -8px;
       }
     }
-    // .not-active {
-    //   display: none;
-    // }
+    .burger-links {
+      display: none;
+    }
     .header-right-part {
       .email1 {
         font-size: 14px;
@@ -138,6 +138,9 @@ body {
       background-color: #000;
       transform: translate(285px, 4px) rotate(315deg);
       cursor: pointer;
+    }
+    .not-active {
+      display: none;
     }
   .main {
     background-image: url("../studio/img/main-bg.jpg");
@@ -314,17 +317,63 @@ body {
   }
   
   @media screen and (max-width: 1126px) {
-      .modal_burger {
-        @include flex(flex);
-        flex-direction: column;
-      }
       .header {
+        .modal_burger {
+          @include flex(flex);
+          display: none;
+        }
         .burger-menu {
           position: relative;
           // padding-left: 575px;
           left: 5px;
           display: block;
         }
-      } 
-
+        .contacts {
+          // display: flex;
+          // flex-direction: column;
+          // position: absolute;
+          // top: 6%;
+          // left: 67%;
+          // z-index: 1;
+          display: none;
+        }
+        .contacts_window {
+          position: relative;
+          .contacts {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 20%;
+            left: 39%;
+            z-index: 1;
+            .contacts-link {
+              padding-bottom: 15px;
+            }
+            .contacts__line {
+              display: none;
+            }
+          }
+          .header-right-part {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 50%;
+            left: 26%;
+            z-index: 1;
+            .email_container,
+            .telephone-number_container {
+              padding-bottom: 15px;
+            }
+          }
+        }
+        .header-right-part {
+          // display: flex;
+          // flex-direction: column;
+          // position: absolute;
+          // top: 30%;
+          // left: 63%;
+          // z-index: 1;
+          display: none;
+        }
+      }
   }
